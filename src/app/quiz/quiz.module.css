@@ -1,0 +1,142 @@
+.quizBox {
+  /* background: linear-gradient(to right, #f7ff00, #db36a4);  */
+  background: var(--gradient-primary);
+  color: var(--color-light);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--shadow-light);
+  padding: 30px;
+  max-width: 400px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.headerTitle {
+  font-size: var(--text-xx-large);
+  font-weight: bold;
+  text-shadow: var(--shadow-text);
+}
+
+.quizOptions {
+  margin-bottom: 20px;
+}
+
+.randomQuizBox,
+.tailoredQuizBox {
+  background-color: var(--color-accent);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--shadow-medium);
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.quizSelectionQ {
+  font-size: var(--font-size-medium);
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.quizSelectionA {
+  background: var(--gradient-secondary-reversed);
+  color: var(--color-dark);
+  font-size: var(--text-large); /* or medium?*/
+  font-weight: bold;
+  border-radius: var(--border-radius-small);
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.quizSelectionA:hover {
+  background: var(--gradient-secondary);
+  color: var(--color-light);
+  transform: scale(1.05);
+}
+
+.quizForm {
+  background-color: var(--color-accent);
+  border-radius: var(--border-radius-medium);
+  padding: 24px;
+  box-shadow: var(--shadow-light);
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formLabel {
+  display: block;
+  color: var(--color-primary);
+  margin-bottom: 5px;
+  margin-left: 5px;
+  font-size: var(--text-medium);
+  font-weight: bold;
+  
+}
+
+.select,
+.difficultySelect,
+.numberInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--color-light);
+  border-radius: var(--border-radius-medium);
+  background-color: var(--color-background);
+  color: var(--color-light);
+  font-size: var(--text-medium);
+}
+
+.select:focus,
+.difficultySelect:focus,
+.numberInput:focus {
+  border-color: var(--color-secondary);
+  outline: none;
+}
+
+.submitButton {
+  background: var(--gradient-secondary-reversed);
+  color: var(--color-dark);
+  font-size: var(--text-medium);
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  margin: 10px auto;
+}
+
+.submitButton:hover {
+  background: var(--gradient-secondary);
+  color: var(--color-light);
+  transform: translateY(-2px);
+}
+
+.quizStartButton {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.startButton {
+  background: var(--gradient-secondary-reversed);
+  color: var(--color-dark);
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.startButton:hover {
+  background: var(--gradient-secondary);
+  color: var(--color-light);
+}

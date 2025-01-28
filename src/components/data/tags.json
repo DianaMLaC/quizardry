@@ -1,0 +1,146 @@
+[
+  {
+      "id": 1,
+      "name": "Linux"
+  },
+  {
+      "id": 2,
+      "name": "BASH"
+  },
+  {
+      "id": 3,
+      "name": "PHP"
+  },
+  {
+      "id": 4,
+      "name": "Docker"
+  },
+  {
+      "id": 5,
+      "name": "HTML"
+  },
+  {
+      "id": 6,
+      "name": "Undefined"
+  },
+  {
+      "id": 10,
+      "name": "Postgres"
+  },
+  {
+      "id": 11,
+      "name": "Css"
+  },
+  {
+      "id": 12,
+      "name": "AI"
+  },
+  {
+      "id": 13,
+      "name": "C"
+  },
+  {
+      "id": 14,
+      "name": "Java"
+  },
+  {
+      "id": 15,
+      "name": "AWS"
+  },
+  {
+      "id": 16,
+      "name": "Angular"
+  },
+  {
+      "id": 17,
+      "name": "Swift"
+  },
+  {
+      "id": 18,
+      "name": "MySQL"
+  },
+  {
+      "id": 19,
+      "name": "Git"
+  },
+  {
+      "id": 22,
+      "name": "Blockchain"
+  },
+  {
+      "id": 23,
+      "name": "VueJS"
+  },
+  {
+      "id": 25,
+      "name": ".Net"
+  },
+  {
+      "id": 27,
+      "name": "Laravel"
+  },
+  {
+      "id": 28,
+      "name": "Kubernetes"
+  },
+  {
+      "id": 30,
+      "name": "Ruby"
+  },
+  {
+      "id": 31,
+      "name": "JavaScript"
+  },
+  {
+      "id": 32,
+      "name": "DevOps"
+  },
+  {
+      "id": 34,
+      "name": "Python"
+  },
+  {
+      "id": 35,
+      "name": "Openshift"
+  },
+  {
+      "id": 37,
+      "name": "Terraform"
+  },
+  {
+      "id": 38,
+      "name": "React"
+  },
+  {
+      "id": 39,
+      "name": "Django"
+  },
+  {
+      "id": 40,
+      "name": "cPanel"
+  },
+  {
+      "id": 41,
+      "name": "Ubuntu"
+  },
+  {
+      "id": 42,
+      "name": "nodeJS"
+  },
+  {
+      "id": 43,
+      "name": "WordPress"
+  },
+  {
+      "id": 44,
+      "name": "Next.js"
+  },
+  {
+      "id": 45,
+      "name": "VueJS"
+  },
+  {
+      "id": 46,
+      "name": "Apache Kafka"
+  }
+]

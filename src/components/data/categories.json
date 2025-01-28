@@ -1,0 +1,70 @@
+[
+  {
+      "id": 1,
+      "name": "Linux"
+  },
+  {
+      "id": 2,
+      "name": "bash"
+  },
+  {
+      "id": 4,
+      "name": "Docker"
+  },
+  {
+      "id": 5,
+      "name": "SQL"
+  },
+  {
+      "id": 6,
+      "name": "CMS"
+  },
+  {
+      "id": 7,
+      "name": "Code"
+  },
+  {
+      "id": 8,
+      "name": "DevOps"
+  },
+  {
+      "id": 9,
+      "name": "React"
+  },
+  {
+      "id": 10,
+      "name": "Laravel"
+  },
+  {
+      "id": 11,
+      "name": "Postgres"
+  },
+  {
+      "id": 12,
+      "name": "Django"
+  },
+  {
+      "id": 13,
+      "name": "cPanel"
+  },
+  {
+      "id": 14,
+      "name": "NodeJs"
+  },
+  {
+      "id": 15,
+      "name": "WordPress"
+  },
+  {
+      "id": 16,
+      "name": "Next.js"
+  },
+  {
+      "id": 17,
+      "name": "VueJS"
+  },
+  {
+      "id": 18,
+      "name": "Apache Kafka"
+  }
+]

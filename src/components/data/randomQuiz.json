@@ -1,0 +1,642 @@
+[
+  {
+      "id": 4038,
+      "question": "How do you register a widget area in WordPress?",
+      "description": "Creating widget areas in WordPress themes.",
+      "answers": {
+          "answer_a": "By using the 'register_sidebar()' function",
+          "answer_b": "By adding widgets in the 'functions.php' file",
+          "answer_c": "By creating a custom plugin",
+          "answer_d": "By modifying the 'theme-sidebar.php' file",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "'register_sidebar()' is used to register widget areas in WordPress.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "WordPress"
+          }
+      ],
+      "category": "WordPress",
+      "difficulty": "Medium"
+  },
+  {
+      "id": 6174,
+      "question": "How do you manage dependent dropdown fields where the options of the second dropdown depend on the first dropdown's selection in Vue?",
+      "description": "Learning how to handle dependencies between form dropdowns.",
+      "answers": {
+          "answer_a": "Use 'watch()' on the first dropdown's reactive property to update the options of the second dropdown dynamically",
+          "answer_b": "Use 'computed()' to always show all options",
+          "answer_c": "Use 'shallowReactive()' to manage dependencies",
+          "answer_d": "Dropdowns cannot depend on each other in Vue",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "'watch()' can be used to observe changes in the first dropdown and update the options in the second dropdown dynamically, depending on the selected value.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "VueJS"
+          }
+      ],
+      "category": "VueJS",
+      "difficulty": "Medium"
+  },
+  {
+      "id": 4982,
+      "question": "What does the 'Buffer.swap16()' method do?",
+      "description": "Understanding the 'swap16' method.",
+      "answers": {
+          "answer_a": "Swaps the byte order of the Buffer's data in 16-bit chunks",
+          "answer_b": "Converts the Buffer into a 16-bit integer array",
+          "answer_c": "Swaps every two bytes in the Buffer",
+          "answer_d": "Creates a new Buffer with reversed data",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "'Buffer.swap16()' swaps the byte order of the Buffer's data in 16-bit chunks.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "nodeJS"
+          }
+      ],
+      "category": "NodeJs",
+      "difficulty": "Medium"
+  },
+  {
+      "id": 6225,
+      "question": "How do you handle real-time validation for a form with many fields that depend on each other, such as verifying that total amounts match in different fields in Vue's Composition API?",
+      "description": "Understanding how to handle complex interdependent real-time validations.",
+      "answers": {
+          "answer_a": "Use 'watch()' on all interdependent fields, and update the validation state reactively as any of the values change",
+          "answer_b": "Wrap all fields in 'markRaw()'",
+          "answer_c": "Use 'computed()' for real-time dependency checks",
+          "answer_d": "Real-time validation is not supported",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Using 'watch()' on all interdependent fields allows you to validate them in real time as the user updates the form, ensuring consistency across all related fields.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "VueJS"
+          }
+      ],
+      "category": "VueJS",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 6338,
+      "question": "How do you create a directive that maintains focus on an input field even after a component re-renders?",
+      "description": "Understanding how to manage focus retention with custom directives in Vue.",
+      "answers": {
+          "answer_a": "Use 'mounted' and 'updated' hooks in the custom directive to ensure that the input element gains focus after re-renders",
+          "answer_b": "Wrap the input in 'v-if' for focusing",
+          "answer_c": "Use 'v-on' for managing focus",
+          "answer_d": "Focus cannot be maintained after re-renders",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Using 'mounted' and 'updated' hooks ensures that the focus logic is re-applied each time the component is updated or re-rendered.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "VueJS"
+          }
+      ],
+      "category": "VueJS",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 4063,
+      "question": "How can you display a custom message if a user is not logged in on a WordPress site?",
+      "description": "Custom messages for logged-out users in WordPress.",
+      "answers": {
+          "answer_a": "By using the 'is_user_logged_in()' function",
+          "answer_b": "By checking the session data",
+          "answer_c": "By adding a custom HTML message in 'header.php'",
+          "answer_d": "By modifying the login page template",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "'is_user_logged_in()' checks if a user is logged in and can be used to display messages accordingly.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "WordPress"
+          }
+      ],
+      "category": "WordPress",
+      "difficulty": "Medium"
+  },
+  {
+      "id": 5278,
+      "question": "What happens if the `secureProtocol` option in a Node.js TLS client is set to 'TLSv1_2_method'?",
+      "description": "Understanding the `secureProtocol` option.",
+      "answers": {
+          "answer_a": "The client forces the use of TLSv1.2 for the connection",
+          "answer_b": "The client automatically upgrades to the latest available protocol",
+          "answer_c": "The client will fall back to the highest protocol available",
+          "answer_d": "TLSv1.2 is disabled, and the client uses the default protocol",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Setting `secureProtocol: 'TLSv1_2_method'` forces the client to use TLSv1.2 for secure connections.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "nodeJS"
+          }
+      ],
+      "category": "NodeJs",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 5155,
+      "question": "What does the `--trace-events-enabled` flag do in Node.js?",
+      "description": "Understanding `--trace-events-enabled`.",
+      "answers": {
+          "answer_a": "It enables the recording of trace events for performance monitoring",
+          "answer_b": "It triggers logging of all stack traces",
+          "answer_c": "It provides detailed logs of async operations",
+          "answer_d": "It captures errors with detailed context",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "The `--trace-events-enabled` flag enables the recording of trace events, useful for performance monitoring.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "nodeJS"
+          }
+      ],
+      "category": "NodeJs",
+      "difficulty": "Medium"
+  },
+  {
+      "id": 438,
+      "question": "The data type BLOB stands for:",
+      "description": null,
+      "answers": {
+          "answer_a": "Binary Large Object",
+          "answer_b": "Big List Object",
+          "answer_c": "Binary List Object",
+          "answer_d": "None of the mentioned",
+          "answer_e": "Binary List Obsolete Object",
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+          {
+              "name": "MySQL"
+          }
+      ],
+      "category": "SQL",
+      "difficulty": "Medium"
+  },
+  {
+      "id": 2751,
+      "question": "How can you use Django REST Framework to send emails as part of an API action?",
+      "description": "Sending emails as part of an API action can be useful for features like notifications or user verification.",
+      "answers": {
+          "answer_a": "Use Django's send_mail() function within the appropriate view or serializer method",
+          "answer_b": "Set email_action=True in the viewset",
+          "answer_c": "Override the save() method",
+          "answer_d": "Use the @send_email decorator",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "To send emails as part of an API action, use Django's send_mail() function within the appropriate view or serializer method, allowing you to send emails based on API interactions.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "Django"
+          }
+      ],
+      "category": "Django",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 2253,
+      "question": "What would be the best way to prevent deadlocks in transactions that update multiple tables?",
+      "description": "Preventing deadlocks in complex transactions.",
+      "answers": {
+          "answer_a": "Maintain a consistent ordering of table updates",
+          "answer_b": "Use nested transactions",
+          "answer_c": "Lock tables for exclusive access",
+          "answer_d": "Avoid using indexes",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Maintaining a consistent ordering of table updates across transactions reduces the risk of deadlocks.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "MySQL"
+          }
+      ],
+      "category": "SQL",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 5174,
+      "question": "What is the purpose of the `--abort-on-uncaught-exception` flag in Node.js?",
+      "description": "Using `--abort-on-uncaught-exception`.",
+      "answers": {
+          "answer_a": "It causes the process to generate a core dump and abort when an uncaught exception occurs",
+          "answer_b": "It retries failed operations caused by uncaught exceptions",
+          "answer_c": "It logs all uncaught exceptions and continues execution",
+          "answer_d": "It stops the event loop and clears all active handles",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "The `--abort-on-uncaught-exception` flag generates a core dump and aborts the process on an uncaught exception.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "nodeJS"
+          }
+      ],
+      "category": "NodeJs",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 516,
+      "question": "To create a combo box (drop down box) which tag will you use?",
+      "description": null,
+      "answers": {
+          "answer_a": "<select>",
+          "answer_b": "<list>",
+          "answer_c": "<input type=\"dropdown\">",
+          "answer_d": "all of above",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+          {
+              "name": "HTML"
+          }
+      ],
+      "category": "Code",
+      "difficulty": "Medium"
+  },
+  {
+      "id": 2585,
+      "question": "How do you enable connection pooling in Django with PostgreSQL?",
+      "description": "Connection pooling helps in improving the performance of database connections by reusing existing connections.",
+      "answers": {
+          "answer_a": "Set the POOL parameter in DATABASES",
+          "answer_b": "Use a third-party library like django-db-geventpool or pgbouncer",
+          "answer_c": "Enable pooling in settings.py",
+          "answer_d": "Configure pooling in Django middleware",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "false",
+          "answer_b_correct": "true",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Django does not have built-in support for connection pooling. You can use third-party libraries like django-db-geventpool or external tools like pgbouncer for PostgreSQL.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "Django"
+          }
+      ],
+      "category": "Django",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 1602,
+      "question": "How can you prevent a context manager from suppressing an exception during its execution?",
+      "description": "Preventing a context manager from suppressing exceptions ensures that errors are properly propagated.",
+      "answers": {
+          "answer_a": "Return 'True' from '__exit__'",
+          "answer_b": "Return 'False' from '__exit__'",
+          "answer_c": "Raise the exception manually in '__enter__'",
+          "answer_d": "Use 'contextlib.suppress' to suppress the exception",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "false",
+          "answer_b_correct": "true",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Returning 'False' from the '__exit__' method allows the exception to be propagated, ensuring that it is not suppressed.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "Python"
+          }
+      ],
+      "category": "Code",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 3866,
+      "question": "Where can you upload themes in WordPress?",
+      "description": "Learning about theme management.",
+      "answers": {
+          "answer_a": "Plugins > Add New",
+          "answer_b": "Appearance > Themes > Add New",
+          "answer_c": "Settings > General",
+          "answer_d": "Tools > Import",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "false",
+          "answer_b_correct": "true",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Themes can be uploaded and installed via Appearance > Themes > Add New in the WordPress admin panel.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "WordPress"
+          }
+      ],
+      "category": "WordPress",
+      "difficulty": "Easy"
+  },
+  {
+      "id": 810,
+      "question": "Once you’ve worked with an image, how do you push it to docker hub?",
+      "description": null,
+      "answers": {
+          "answer_a": "$ docker push <username image name>",
+          "answer_b": "$ docker push <username/image name>",
+          "answer_c": "$ docker --push <username image name>",
+          "answer_d": null,
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "false",
+          "answer_b_correct": "true",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+          {
+              "name": "Docker"
+          }
+      ],
+      "category": "Docker",
+      "difficulty": "Medium"
+  },
+  {
+      "id": 2434,
+      "question": "Which technique provides the best performance for range-based partitioning with dynamic boundaries?",
+      "description": "Understanding dynamic partitioning optimization.",
+      "answers": {
+          "answer_a": "Fixed partitions",
+          "answer_b": "Dynamic partition management with predictive creation",
+          "answer_c": "Manual partition creation",
+          "answer_d": "List partitioning",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "false",
+          "answer_b_correct": "true",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Dynamic partition management with predictive creation provides efficient range partitioning by anticipating partition needs and managing boundaries automatically.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "Postgres"
+          }
+      ],
+      "category": "Postgres",
+      "difficulty": "Hard"
+  },
+  {
+      "id": 1119,
+      "question": "How to show the working tree status ?",
+      "description": null,
+      "answers": {
+          "answer_a": "git status --tree",
+          "answer_b": "git status",
+          "answer_c": "git show status",
+          "answer_d": null,
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "false",
+          "answer_b_correct": "true",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": "Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.",
+      "tip": "Just git status.",
+      "tags": [
+          {
+              "name": "Git"
+          }
+      ],
+      "category": "Linux",
+      "difficulty": "Easy"
+  },
+  {
+      "id": 6365,
+      "question": "How does SSR affect page load time in low-bandwidth environments?",
+      "description": "Understanding the impact of SSR on performance in different network conditions.",
+      "answers": {
+          "answer_a": "It improves page load time by rendering the HTML on the server",
+          "answer_b": "It makes page load slower",
+          "answer_c": "It has no impact on low-bandwidth environments",
+          "answer_d": "It only works for high-bandwidth environments",
+          "answer_e": null,
+          "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+          "answer_a_correct": "true",
+          "answer_b_correct": "false",
+          "answer_c_correct": "false",
+          "answer_d_correct": "false",
+          "answer_e_correct": "false",
+          "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "SSR helps improve page load time in low-bandwidth environments by offloading the rendering work to the server, so the client device only needs to receive and display the HTML.",
+      "tip": null,
+      "tags": [
+          {
+              "name": "VueJS"
+          }
+      ],
+      "category": "VueJS",
+      "difficulty": "Easy"
+  }
+]
