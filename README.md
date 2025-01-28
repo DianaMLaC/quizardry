@@ -1,6 +1,8 @@
 # 🧙‍♂️ Quizardry
 
 Quizardry is an enchanting quiz-based platform designed to make learning fun, engaging, and magical.
+
+
 ![alt-text](/public/quizardry.png "Quizardry")
 
 ---
