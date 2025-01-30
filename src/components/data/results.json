@@ -1,0 +1,187 @@
+[
+  {
+      "questionData": {
+          "id": 993,
+          "question": "Which event occurs when the user clicks on an HTML element?",
+          "description": null,
+          "answers": {
+              "answer_a": "onchange",
+              "answer_b": "onmouseclick",
+              "answer_c": "onmouseover",
+              "answer_d": "onclick",
+              "answer_e": null,
+              "answer_f": null
+          },
+          "multiple_correct_answers": "false",
+          "correct_answers": {
+              "answer_a_correct": "false",
+              "answer_b_correct": "false",
+              "answer_c_correct": "false",
+              "answer_d_correct": "true",
+              "answer_e_correct": "false",
+              "answer_f_correct": "false"
+          },
+          "correct_answer": "answer_a",
+          "explanation": null,
+          "tip": null,
+          "tags": [
+              {
+                  "name": "JavaScript"
+              }
+          ],
+          "category": "Code",
+          "difficulty": "Easy"
+      },
+      "passed": true,
+      "selectedAnswer": "onclick",
+      "correctAnswer": ""
+  },
+  {
+      "questionData": {
+          "id": 1984,
+          "question": "Which function would you use to combine two lists in Python?",
+          "description": "Combining lists is a common operation in data manipulation.",
+          "answers": {
+              "answer_a": "list1.append(list2)",
+              "answer_b": "list1 + list2",
+              "answer_c": "list1.add(list2)",
+              "answer_d": "combine(list1, list2)",
+              "answer_e": null,
+              "answer_f": null
+          },
+          "multiple_correct_answers": "false",
+          "correct_answers": {
+              "answer_a_correct": "false",
+              "answer_b_correct": "true",
+              "answer_c_correct": "false",
+              "answer_d_correct": "false",
+              "answer_e_correct": "false",
+              "answer_f_correct": "false"
+          },
+          "correct_answer": null,
+          "explanation": "You can combine two lists using the '+' operator, which concatenates them.",
+          "tip": null,
+          "tags": [
+              {
+                  "name": "Python"
+              }
+          ],
+          "category": "Code",
+          "difficulty": "Easy"
+      },
+      "passed": true,
+      "selectedAnswer": "list1 + list2",
+      "correctAnswer": ""
+  },
+  {
+      "questionData": {
+          "id": 1955,
+          "question": "How do you create a thread in Python using the 'threading' module?",
+          "description": "Creating a thread in Python can be done by creating an instance of the 'Thread' class.",
+          "answers": {
+              "answer_a": "Thread(target=function_name)",
+              "answer_b": "create_thread(function_name)",
+              "answer_c": "run_thread(function_name)",
+              "answer_d": "threading.start(function_name)",
+              "answer_e": null,
+              "answer_f": null
+          },
+          "multiple_correct_answers": "false",
+          "correct_answers": {
+              "answer_a_correct": "true",
+              "answer_b_correct": "false",
+              "answer_c_correct": "false",
+              "answer_d_correct": "false",
+              "answer_e_correct": "false",
+              "answer_f_correct": "false"
+          },
+          "correct_answer": null,
+          "explanation": "To create a thread in Python, you use 'Thread(target=function_name)' from the threading module, and then call 'start()' to begin execution.",
+          "tip": null,
+          "tags": [
+              {
+                  "name": "Python"
+              }
+          ],
+          "category": "Code",
+          "difficulty": "Easy"
+      },
+      "passed": true,
+      "selectedAnswer": "Thread(target=function_name)",
+      "correctAnswer": ""
+  },
+  {
+      "questionData": {
+          "id": 1991,
+          "question": "How do you add multiple elements to a set in Python?",
+          "description": "Adding elements to a set is common, and sets only allow unique elements.",
+          "answers": {
+              "answer_a": "set.add(elements)",
+              "answer_b": "set.update(elements)",
+              "answer_c": "set.append(elements)",
+              "answer_d": "set.insert(elements)",
+              "answer_e": null,
+              "answer_f": null
+          },
+          "multiple_correct_answers": "false",
+          "correct_answers": {
+              "answer_a_correct": "false",
+              "answer_b_correct": "true",
+              "answer_c_correct": "false",
+              "answer_d_correct": "false",
+              "answer_e_correct": "false",
+              "answer_f_correct": "false"
+          },
+          "correct_answer": null,
+          "explanation": "The 'update()' method is used to add multiple elements to a set, whereas 'add()' only adds a single element.",
+          "tip": null,
+          "tags": [
+              {
+                  "name": "Python"
+              }
+          ],
+          "category": "Code",
+          "difficulty": "Easy"
+      },
+      "passed": false,
+      "selectedAnswer": "set.insert(elements)",
+      "correctAnswer": "set.update(elements)"
+  },
+  {
+      "questionData": {
+          "id": 1886,
+          "question": "Which method can be used to make a thread sleep for a specified amount of time?",
+          "description": "Making a thread sleep is useful for controlling the timing of thread execution.",
+          "answers": {
+              "answer_a": "threading.pause()",
+              "answer_b": "time.sleep()",
+              "answer_c": "threading.sleep()",
+              "answer_d": "sleep.thread()",
+              "answer_e": null,
+              "answer_f": null
+          },
+          "multiple_correct_answers": "false",
+          "correct_answers": {
+              "answer_a_correct": "false",
+              "answer_b_correct": "true",
+              "answer_c_correct": "false",
+              "answer_d_correct": "false",
+              "answer_e_correct": "false",
+              "answer_f_correct": "false"
+          },
+          "correct_answer": null,
+          "explanation": "The 'time.sleep()' function is used to make a thread pause for a specified amount of time, allowing you to control the timing of its execution.",
+          "tip": null,
+          "tags": [
+              {
+                  "name": "Python"
+              }
+          ],
+          "category": "Code",
+          "difficulty": "Easy"
+      },
+      "passed": false,
+      "selectedAnswer": "threading.sleep()",
+      "correctAnswer": "time.sleep()"
+  }
+]
