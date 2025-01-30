@@ -1,0 +1,17 @@
+.navBox {
+  border: 1px solid red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  color: var(--color-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: var(--shadow-medium);
+  z-index: 1000;
+  box-sizing: border-box;
+  background: var(--gradient-primary);
+}
