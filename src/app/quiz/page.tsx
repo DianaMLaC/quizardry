@@ -62,7 +62,7 @@ export default function Quiz() {
   return (
     <div className={styles.quizBox}>
       <header className={styles.header}>
-        <h1 className={styles.headerTitle}>Welcome!</h1>
+        <h1 className={styles.headerTitle}>Quiz</h1>
       </header>
       <div className={styles.quizOptions}>
         <div className={styles.randomQuizBox}>
