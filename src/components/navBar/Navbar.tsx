@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className={styles.navBox}>
-      <h1>Quizardry</h1>
+      <h1 className={styles.title}>Quizardry</h1>
       <div>
         {user ? (
           <div>
