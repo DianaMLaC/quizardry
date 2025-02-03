@@ -13,7 +13,6 @@ export default function Navbar() {
       <div>
         {user ? (
           <div>
-            <span>Welcome, {user.email}</span>
             <button onClick={logout}>Logout</button>
           </div>
         ) : (

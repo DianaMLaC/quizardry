@@ -32,7 +32,9 @@ export default function Results() {
             </div>
             <div className={styles.userAnswersBox}>
               <div className={styles.userAnswer}>
-                <div className={styles.userAnswerLabel}>Your Answer:</div>
+                <div className={styles.userAnswerLabel}>
+                  Your Answer: {result.passed ? "Correct" : "Incorrect"}
+                </div>
                 <div className={styles.answerValue}>{result.selectedAnswer} </div>
               </div>
               {!result.passed && (
