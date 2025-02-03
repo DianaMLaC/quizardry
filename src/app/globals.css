@@ -64,9 +64,10 @@ main {
   margin-top: 60px; 
   width: 100%;
   padding: 20px;
-  border: 1px solid blue;
-  height: 100vh;
-
+  /* border: 1px solid blue; */
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
 }
 
 

@@ -28,6 +28,8 @@ export function useAuth() {
       setUser(session?.user ?? null)
       if (session?.user) {
         router.push("/quiz")
+      } else {
+        router.push("/")
       }
     })
 
