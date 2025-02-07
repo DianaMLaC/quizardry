@@ -66,7 +66,6 @@ export default function QuestionSlug({ params }: { params: Promise<{ questionId:
     <div className={styles.questionBox}>
       <header className={styles.header}>
         <h3 className={styles.headerTitle}>{question.question}</h3>
-        <p className={styles.description}>{question.description}</p>
       </header>
       <div className={styles.answersBox}>{renderAnswers(question.answers)}</div>
       <div className={styles.infoBox}>
