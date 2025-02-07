@@ -25,9 +25,13 @@ export default function QuestionSlug({ params }: { params: Promise<{ questionId:
   const nextQuestion = (): string | undefined => {
     if (questions && questionIndex !== null && questionIndex !== undefined) {
       if (questionIndex === -1 || questionIndex === questions.length - 1) {
+        console.log("in next question qIdx", questionIndex)
+
         return `/quiz/results`
       }
       const nextId = questions[questionIndex + 1].id
+      console.log("in next question nextId", nextId)
+
       return `/quiz/questions/${nextId}`
     }
     return
@@ -35,6 +39,7 @@ export default function QuestionSlug({ params }: { params: Promise<{ questionId:
 
   const handleSubmit = (answerSelected: AnswersAPI) => {
     const link = nextQuestion()
+    console.log("link in handle submit", link)
 
     updateResults(question, answerSelected)
     if (link) {
