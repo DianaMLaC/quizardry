@@ -6,17 +6,21 @@ import styles from "./auth.module.css"
 
 export default function AuthForm() {
   const { user, loading } = useAuth()
+  const [displayName, setDisplayName] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [isSignUp, setIsSignUp] = useState(false)
   const [error, setError] = useState("")
+  const [showVerificationModal, setShowVerificationModal] = useState(false)
 
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault()
     setError("")
     try {
       if (isSignUp) {
-        await signUp(email, password)
+        console.log("auth form is calling SignUp with:", email, password)
+        await signUp(email, password, displayName)
+        setShowVerificationModal(true)
       } else {
         await login(email, password)
       }
@@ -35,7 +39,28 @@ export default function AuthForm() {
   return (
     <div className={styles.authFormBox}>
       <h2>{isSignUp ? "Sign Up" : "Login"}</h2>
+      {/* Verification Modal */}
+      {showVerificationModal && (
+        <div className={styles.verification}>
+          <h3>Verify Your Email</h3>
+          <p>
+            A verification link has been sent to <strong>{email}</strong>. Please check your inbox
+            and confirm your email to access the quiz.
+          </p>
+        </div>
+      )}
       <form onSubmit={handleAuth}>
+        {isSignUp ? (
+          <input
+            type="text"
+            placeholder="Display Name"
+            value={displayName}
+            onChange={(e) => setDisplayName(e.target.value)}
+            required
+          />
+        ) : (
+          <div></div>
+        )}
         <input
           type="email"
           placeholder="Email"

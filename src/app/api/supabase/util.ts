@@ -1,8 +1,15 @@
 import { supabase } from "./supabase"
 
 // Sign Up with Email & Password
-export const signUp = async (email: string, password: string) => {
-  const { data, error } = await supabase.auth.signUp({ email, password })
+export const signUp = async (email: string, password: string, displayName: string) => {
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      data: { display_name: displayName },
+      emailRedirectTo: "http://localhost:3000/quiz",
+    },
+  })
   if (error) throw error
   return data
 }

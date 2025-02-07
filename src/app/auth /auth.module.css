@@ -90,6 +90,7 @@
   cursor: pointer;
   text-decoration: underline;
   margin: 10px;
+  text-align: center;
 }
 
 .formAuthType:hover {
@@ -148,4 +149,13 @@
     font-size: 1.2em;
     padding: 18px 25px;
   }
+}
+
+
+.verification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-dark);
+  margin: 20px;
 }

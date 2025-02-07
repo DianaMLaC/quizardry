@@ -14,7 +14,7 @@ export default function Quiz() {
   const { user } = useAuth()
   const categories: Category[] = categoriesData as Category[]
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
-  const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(null)
+  const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>("null")
   const [toggleFilter, setToggleFilter] = useState(false)
   const { setQuestions, questions } = useQuiz()
   const [firstQuestionId, setFirstQuestionId] = useState<number | null>(null)
@@ -64,8 +64,7 @@ export default function Quiz() {
   return (
     <div className={styles.quizBox}>
       <header className={styles.header}>
-        <h1 className={styles.headerTitle}>Welcome</h1>
-        {user && <span>{user.email}</span>}
+        <h1 className={styles.headerTitle}>Welcome {user!.user_metadata.display_name}</h1>
       </header>
       <div className={styles.quizOptions}>
         <div className={styles.randomQuizBox}>
