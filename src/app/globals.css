@@ -54,7 +54,7 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: linear-gradient(to right, rgba(247, 255, 0, 0.5), rgba(219, 54, 164, 0.5));
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

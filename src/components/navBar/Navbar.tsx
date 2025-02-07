@@ -5,7 +5,6 @@ import styles from "./nav.module.css"
 
 export default function Navbar() {
   const { user } = useAuth()
-  console.log({ user })
 
   return (
     <nav className={styles.navBox}>

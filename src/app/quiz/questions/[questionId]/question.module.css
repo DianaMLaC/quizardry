@@ -1,5 +1,5 @@
 .questionBox {
-  background: var(--gradient-primary);
+  background: var(--color-light);
   color: var(--color-light);
   border-radius: var(--border-radius-large);
   box-shadow: var(--shadow-light);
