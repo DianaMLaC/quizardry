@@ -11,7 +11,8 @@ export default function Navbar() {
       <h1 className={styles.title}>Quizardry</h1>
       <div>
         {user ? (
-          <div>
+          <div className={styles.navUser}>
+            <div>Welcome {user.user_metadata.display_name}</div>
             <button onClick={logout}>Logout</button>
           </div>
         ) : (

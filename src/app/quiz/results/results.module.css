@@ -1,6 +1,6 @@
 .resultsBox {
-  background: var(--gradient-primary);
-  color: var(--color-light);
+  background: var(--color-light);
+  color: var(--color-secondary);
   border-radius: var(--border-radius-large);
   box-shadow: var(--shadow-light);
   padding: 20px;

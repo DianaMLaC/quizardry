@@ -8,10 +8,10 @@ import Link from "next/link"
 import customSelectStyles from "../../components/customStyles"
 import { useQuiz } from "./context"
 import { fetchQuizWithParams, fetchRandomQuiz } from "../../components/util"
-import { useAuth } from "../auth /useAuth"
+// import { useAuth } from "../auth /useAuth"
 
 export default function Quiz() {
-  const { user } = useAuth()
+  // const { user } = useAuth()
   const categories: Category[] = categoriesData as Category[]
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
   const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>("null")
@@ -64,7 +64,7 @@ export default function Quiz() {
   return (
     <div className={styles.quizBox}>
       <header className={styles.header}>
-        <h1 className={styles.headerTitle}>Welcome {user!.user_metadata.display_name}</h1>
+        <h1 className={styles.headerTitle}>Quiz</h1>
       </header>
       <div className={styles.quizOptions}>
         <div className={styles.randomQuizBox}>
